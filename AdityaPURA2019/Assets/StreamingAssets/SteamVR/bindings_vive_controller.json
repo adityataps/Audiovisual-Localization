@@ -1,0 +1,96 @@
+{
+   "action_manifest_version" : 0,
+   "alias_info" : {},
+   "app_key" : "application.generated.unity.adityapura2019.exe",
+   "bindings" : {
+      "/actions/buggy" : {
+         "chords" : [],
+         "haptics" : [],
+         "poses" : [],
+         "skeleton" : [],
+         "sources" : []
+      },
+      "/actions/default" : {
+         "chords" : [],
+         "haptics" : [],
+         "poses" : [],
+         "skeleton" : [],
+         "sources" : []
+      },
+      "/actions/dpadclick" : {
+         "chords" : [],
+         "haptics" : [],
+         "poses" : [],
+         "skeleton" : [],
+         "sources" : [
+            {
+               "inputs" : {
+                  "east" : {
+                     "output" : "/actions/dpadclick/in/dpadright"
+                  },
+                  "north" : {
+                     "output" : "/actions/dpadclick/in/dpadup"
+                  },
+                  "south" : {
+                     "output" : "/actions/dpadclick/in/dpaddown"
+                  },
+                  "west" : {
+                     "output" : "/actions/dpadclick/in/dpadleft"
+                  }
+               },
+               "mode" : "dpad",
+               "parameters" : {
+                  "overlap_pct" : "25",
+                  "sub_mode" : "click"
+               },
+               "path" : "/user/hand/left/input/trackpad"
+            },
+            {
+               "inputs" : {
+                  "east" : {
+                     "output" : "/actions/dpadclick/in/dpadright"
+                  },
+                  "north" : {
+                     "output" : "/actions/dpadclick/in/dpadup"
+                  },
+                  "south" : {
+                     "output" : "/actions/dpadclick/in/dpaddown"
+                  },
+                  "west" : {
+                     "output" : "/actions/dpadclick/in/dpadleft"
+                  }
+               },
+               "mode" : "dpad",
+               "parameters" : {
+                  "overlap_pct" : "25",
+                  "sub_mode" : "click"
+               },
+               "path" : "/user/hand/right/input/trackpad"
+            },
+            {
+               "inputs" : {},
+               "mode" : "none",
+               "path" : "/user/hand/left/input/skeleton/left"
+            },
+            {
+               "inputs" : {},
+               "mode" : "none",
+               "path" : "/user/hand/right/input/skeleton/left"
+            }
+         ]
+      },
+      "/actions/platformer" : {
+         "chords" : [],
+         "haptics" : [],
+         "poses" : [],
+         "skeleton" : [],
+         "sources" : []
+      }
+   },
+   "category" : "steamvr_input",
+   "controller_type" : "vive_controller",
+   "description" : "dpad",
+   "name" : "dpadclicks",
+   "options" : {},
+   "simulated_actions" : []
+}
